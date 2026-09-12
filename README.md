@@ -58,13 +58,15 @@ flowchart TD
 
 ### Production mapping
 
-Local (this repo) Production equivalent
-
-Synthetic .txt docs --> Real document ingestion pipeline
-FAISS local index --> Managed vector DB / Snowflake Cortex
-Direct API key --> Secrets manager + key rotation
-JSONL audit log --> Centralized logging (Splunk / CloudWatch)
-Manual eval --> Labeled eval set + CI regression tests
+````text
+Local (this repo)          Production equivalent
+---------------------      ----------------------
+Synthetic .txt docs   -->  Real document ingestion pipeline
+FAISS local index     -->  Managed vector DB / Snowflake Cortex
+Direct API key        -->  Secrets manager + key rotation
+JSONL audit log       -->  Centralized logging (Splunk / CloudWatch)
+Manual eval           -->  Labeled eval set + CI regression tests
+```
 
 
 ---
