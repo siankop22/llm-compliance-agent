@@ -1,0 +1,1 @@
+This loan agreement includes a variable interest rate clause tied to SOFR plus 2.5%. Borrower <PERSON>, SSN 123-45-6789, agreed to <DATE_TIME> payments of $1,450. Late payment penalty is 5% after <DATE_TIME>.
